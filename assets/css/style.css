@@ -30,6 +30,8 @@
     --bs-lightbrown: #988353;
     --bs-10white: #FFFFFF1A;
     --bs-navshadow: #0000000F;
+    --bs-30white: #FFFFFF4D;
+    --bs-navbrown: #86765D;
     /* font-family */
     --ff-ma: 'Montserrat Alternates', sans-serif;
     --ff-Raleway: 'Raleway', sans-serif;
@@ -152,7 +154,7 @@
 }
 
 .login-btn:hover {
-    background: #80765D;
+    background: var(--bs-navbrown);
     border: 1px solid transparent;
 }
 
@@ -172,14 +174,14 @@
 .started-btn {
     background-color: var(--bs-cream);
     width: 100%;
-    border: 2px solid #3C3C3C;
+    border: 2px solid var(--bs-black);
     border-radius: 5px;
     padding: 16px 0;
     transition: all 300ms linear;
 }
 
 .add-btn {
-    background: #FFFFFF33;
+    background: var(--bs-20white);
     padding: 12px 23px;
     border-radius: 39px;
     border: 1px solid transparent;
@@ -199,14 +201,14 @@
 
 .backbtn {
     border-radius: 5px;
-    border: 1px solid var(--BLACK, #3C3C3C);
-    background: #FFF9E4;
+    border: 1px solid var(--bs-black);
+    background: var(--bs-cream);
     padding: 16px 30px;
     transition: all 300ms linear;
 }
 
 .backbtn:hover {
-    box-shadow: 5px 5px 0px 0px #3C3C3C;
+    box-shadow: 5px 5px 0px 0px var(--bs-black);
 }
 
 .circle {
@@ -221,13 +223,13 @@
     height: 57px;
     padding: 14px 32px;
     border-radius: 5px;
-    border: 1px solid #FFFFFF4D;
+    border: 1px solid var(--bs-30white);
     transition: all 300ms linear;
 }
 
 .box1:hover {
-    border: 1px solid #FFCF23;
-    box-shadow: 5px 5px 0px 0px #FFCF23;
+    border: 1px solid var(--bs-yellow);
+    box-shadow: 5px 5px 0px 0px var(--bs-yellow);
 }
 
 .box2 {
@@ -235,13 +237,13 @@
     height: 57px;
     padding: 14px 32px;
     border-radius: 5px;
-    border: 1px solid #FFFFFF4D;
+    border: 1px solid var(--bs-30white);
     transition: all 300ms linear;
 }
 
 .box2:hover {
-    border: 1px solid #FFCF23;
-    box-shadow: 5px 5px 0px 0px #FFCF23;
+    border: 1px solid var(--bs-yellow);
+    box-shadow: 5px 5px 0px 0px var(--bs-yellow);
 }
 
 .box3 {
@@ -249,13 +251,13 @@
     height: 57px;
     padding: 14px 32px;
     border-radius: 5px;
-    border: 1px solid #FFFFFF4D;
+    border: 1px solid var(--bs-30white);
     transition: all 300ms linear;
 }
 
 .box3:hover {
-    border: 1px solid #FFCF23;
-    box-shadow: 5px 5px 0px 0px #FFCF23;
+    border: 1px solid var(--bs-yellow);
+    box-shadow: 5px 5px 0px 0px var(--bs-yellow);
 }
 
 .box4 {
@@ -263,18 +265,18 @@
     height: 57px;
     padding: 14px 32px;
     border-radius: 5px;
-    border: 1px solid #FFFFFF4D;
+    border: 1px solid var(--bs-30white);
     transition: all 300ms linear;
 }
 
 .box4:hover {
-    border: 1px solid #FFCF23;
-    box-shadow: 5px 5px 0px 0px #FFCF23;
+    border: 1px solid var(--bs-yellow);
+    box-shadow: 5px 5px 0px 0px var(--bs-yellow);
 }
 
 .card1 {
     max-width: 364px;
-    border: 1px solid #3C3C3C;
+    border: 1px solid var(--bs-black);
     border-radius: 15px;
     padding: 0 32px 32px 32px;
     box-shadow: 10px 10px 0px 0px transparent;
@@ -726,8 +728,8 @@
 .slider3 .slick-current,
 .slider3 .slick-center {
     border-radius: 15px;
-    background: #FFFCF6;
-    box-shadow: 10px 10px 0px 0px #FFCF23;
+    background: var(--bs-lightcream);
+    box-shadow: 10px 10px 0px 0px var(--bs-yellow);
     border: 1px solid var(--bs-yellow);
 
 }
@@ -962,7 +964,7 @@
         height: 57px;
         padding: 14px 32px;
         border-radius: 5px;
-        border: 1px solid #FFFFFF4D;
+        border: 1px solid var(--bs-30white);
     }
 
     .box2 {
@@ -970,7 +972,7 @@
         height: 57px;
         padding: 14px 32px;
         border-radius: 5px;
-        border: 1px solid #FFFFFF4D;
+        border: 1px solid var(--bs-30white);
     }
 
     .box3 {
@@ -978,7 +980,7 @@
         height: 57px;
         padding: 14px 32px;
         border-radius: 5px;
-        border: 1px solid #FFFFFF4D;
+        border: 1px solid var(--bs-30white);
     }
 
     .box4 {
@@ -986,7 +988,7 @@
         height: 57px;
         padding: 14px 32px;
         border-radius: 5px;
-        border: 1px solid #FFFFFF4D;
+        border: 1px solid var(--bs-30white);
     }
 
     .card2 {
@@ -1019,7 +1021,7 @@
         height: 57px;
         padding: 14px 15px;
         border-radius: 5px;
-        border: 1px solid #FFFFFF4D;
+        border: 1px solid var(--bs-30white);
     }
 
     .box2 {
@@ -1027,7 +1029,7 @@
         height: 57px;
         padding: 14px 15px;
         border-radius: 5px;
-        border: 1px solid #FFFFFF4D;
+        border: 1px solid var(--bs-30white);
     }
 
     .box3 {
@@ -1035,7 +1037,7 @@
         height: 57px;
         padding: 14px 2px;
         border-radius: 5px;
-        border: 1px solid #FFFFFF4D;
+        border: 1px solid var(--bs-30white);
     }
 
     .box4 {
@@ -1043,11 +1045,11 @@
         height: 57px;
         padding: 14px 15px;
         border-radius: 5px;
-        border: 1px solid #FFFFFF4D;
+        border: 1px solid var(--bs-30white);
     }
 
     .border-lg-right {
-        border-right: 2px solid #0000001A;
+        border-right: 2px solid var(--bs-navshadow);
     }
 
     .me-lg-130 {
@@ -1078,7 +1080,7 @@
     .line3 {
         width: 30px;
         min-height: 3px;
-        background-color: white;
+        background-color: var(--bs-white);
         transition: 300ms linear;
     }
 
@@ -1103,7 +1105,7 @@
         content: "";
         height: 1px;
         position: absolute;
-        background: white;
+        background: var(--bs-white);
         bottom: -40%;
         left: -246%;
         right: -246%;
@@ -1119,7 +1121,7 @@
         content: "";
         height: 1px;
         position: absolute;
-        background: white;
+        background: var(--bs-white);
         bottom: -40%;
         left: -183%;
         right: -183%;
@@ -1134,7 +1136,7 @@
         content: "";
         height: 1px;
         position: absolute;
-        background: white;
+        background: var(--bs-white);
         bottom: -40%;
         left: -217%;
         right: -217%;
@@ -1149,7 +1151,7 @@
         content: "";
         height: 1px;
         position: absolute;
-        background: white;
+        background: var(--bs-white);
         bottom: -40%;
         left: -387%;
         right: -387%;
